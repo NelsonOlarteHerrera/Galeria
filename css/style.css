@@ -45,7 +45,7 @@ ul li {
     display: inline-block;
     position: relative;
     z-index: 0;
-    transition: all 0.4s;
+    transition: all 0.5s;
 }
 ul li .item img{
     display: block;
@@ -71,25 +71,25 @@ ul li .item:after{
     top: 15px;
 }
 ul li:nth-child(4n+1){
-    transform: rotate(4deg);
+    transform: rotate(10deg);
 }
 ul li:nth-child(4n+3){
     transform: rotate(-24deg);
 }
 ul li:nth-child(2n+2){
-    transform: rotate(14deg);
+    transform: rotate(16deg);
 }
 ul li:nth-child(5){
-    transform: rotate(-8deg);
+    transform: rotate(-12deg);
 }
 ul li:nth-child(6){
-    transform: rotate(2deg);
+    transform: rotate(4deg);
 }
 ul li:hover{
     box-shadow: 0 0 15px 8px rgb(0,0,0,.8);
     transform: rotate(0deg) scale(1.25);
     z-index: 10;
-    transition: all 0.2s;
+    transition: all 0.5s;
 }
 footer{
     background-color: rgba(250, 250, 250, 0.25);
